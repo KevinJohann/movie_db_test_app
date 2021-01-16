@@ -14,7 +14,9 @@ git clone https://github.com/KevinJohann/movie_db_test_app.git
 
 2. Go to project folder and open it.
 
-3. Double click xcworkspace on project folder.
+3. Double click "movieApp.xcworkspace" on project folder.
 
-# movie_db_test_app
-viper-coord test project
+4. Run and see in some emulator
+
+
+Regards
