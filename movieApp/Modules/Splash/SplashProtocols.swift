@@ -6,10 +6,8 @@
 //  
 //
 
-import UIKit
-
 // MARK: - View
-protocol SplashViewProtocol: AnyObject {}
+protocol SplashViewProtocol: NavigationBarVisibilityTogglable {}
 
 // MARK: - Interactor
 protocol SplashInteractorProtocol: AnyObject {}

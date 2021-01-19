@@ -14,7 +14,10 @@ final class SplashPresenter {
 }
 
 // MARK: - SplashPresenterProtocol
-extension SplashPresenter: SplashPresenterProtocol {}
+extension SplashPresenter: SplashPresenterProtocol {
+    func onViewWillAppear() { view?.hideNavigationBar(animated: true) }
+    func onViewDidAppear() { delegate?.onFeedRequested() }
+}
 
 // MARK: - SplashInteractorOutputProtocol
 extension SplashPresenter: SplashInteractorOutputProtocol {}
