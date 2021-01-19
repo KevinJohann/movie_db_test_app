@@ -12,11 +12,15 @@ The Movie database application test.
 git clone https://github.com/KevinJohann/movie_db_test_app.git
 ```
 
-2. Go to project folder and open it.
+2. Open terminal and go to project folder.
 
-3. Double click "movieApp.xcworkspace" on project folder.
+3. Type pod install.
 
-4. Run and see in some emulator
+4. Go to project folder and open it.
+
+5. Double click "movieApp.xcworkspace" on project folder.
+
+6. Run and see in some emulator
 
 
-Regards
+Regards!!
